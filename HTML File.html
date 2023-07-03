@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check Vowel</title>
+  <script type="text/javascript">
+    function checkVowel()
+    {
+    ch=document.getElementById('btn1').value
+    if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+    {
+    alert(ch+' is a vowel')
+    }
+    else{
+    alert(ch+' is a consonant')
+    }
+    }
+    
+    
+  </script>
+</head>
+<body>
+Enter a char:<input type="text" id="btn1">
+<input type="submit" value="checkVowel" onclick="checkVowel()">
+</body>
+</html>
